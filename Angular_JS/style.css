@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.right{
+    text-align: right;
+}
+
+
+.newslist ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.newslist ul li {
+    border: 2px solid #e3f2fd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.contact{
+    display: flex;
+}
+
+
+.contact div{
+    justify-content: center;
+    display: flex;
+}
+
+.contact div p{
+    align-items: center;
+    justify-content: center;
+}
+
+.contact div input,textarea{
+    border: 2px solid #e3f2fd;
+    border-radius: 2px;
+    color: #e3f2fd;
+}
+
+form, input, textarea{
+    width: 100%;
+}
+
+
+.container-center{
+    display: flex;
+    justify-content: center;
+}
+
+.card img{
+    height: 150px;
+    width: auto;
+}
